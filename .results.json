@@ -1,0 +1,115 @@
+{
+  "stats": {
+    "suites": 4,
+    "tests": 6,
+    "passes": 4,
+    "pending": 0,
+    "failures": 2,
+    "start": "2021-09-08T23:33:24.936Z",
+    "end": "2021-09-08T23:33:27.057Z",
+    "duration": 2121
+  },
+  "tests": [
+    {
+      "title": "should use the componentDidMount lifecycle method to fetchCats",
+      "fullTitle": "<App/> should use the componentDidMount lifecycle method to fetchCats",
+      "duration": 22,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "uses redux and thunk to create an action object with type of \"ADD_CATS\" and a payload of cat images",
+      "fullTitle": "async actions uses redux and thunk to create an action object with type of \"ADD_CATS\" and a payload of cat images",
+      "duration": 2010,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should display the cat pics wrapped in <img> tags",
+      "fullTitle": "<CatList/> should display the cat pics wrapped in <img> tags",
+      "duration": 2,
+      "currentRetry": 0,
+      "err": {
+        "stack": "TypeError: Cannot read property 'url' of undefined\n    at CatList.render (src/CatList.js:7:41)\n    at ReactShallowRenderer._mountClassComponent (node_modules/react-test-renderer/cjs/react-test-renderer-shallow.development.js:195:37)\n    at ReactShallowRenderer.render (node_modules/react-test-renderer/cjs/react-test-renderer-shallow.development.js:143:14)\n    at /home/taylor/dev/flatiron/labs/module_five/redux-thunk-lab/node_modules/enzyme-adapter-react-16/build/ReactSixteenAdapter.js:287:35\n    at withSetStateAllowed (node_modules/enzyme-adapter-utils/build/Utils.js:103:16)\n    at Object.render (node_modules/enzyme-adapter-react-16/build/ReactSixteenAdapter.js:286:68)\n    at new ShallowWrapper (node_modules/enzyme/build/ShallowWrapper.js:119:22)\n    at shallow (node_modules/enzyme/build/shallow.js:19:10)\n    at Context.<anonymous> (test/cat-list-test.js:14:21)\n    at processImmediate (node:internal/timers:464:21)",
+        "message": "Cannot read property 'url' of undefined"
+      }
+    },
+    {
+      "title": "should have props catPics",
+      "fullTitle": "<CatList/> should have props catPics",
+      "duration": 6,
+      "currentRetry": 0,
+      "err": {
+        "stack": "TypeError: Cannot read property 'url' of undefined\n    at CatList.render (src/CatList.js:7:41)\n    at finishClassComponent (node_modules/react-dom/cjs/react-dom.development.js:13194:31)\n    at updateClassComponent (node_modules/react-dom/cjs/react-dom.development.js:13156:10)\n    at beginWork (node_modules/react-dom/cjs/react-dom.development.js:13825:14)\n    at performUnitOfWork (node_modules/react-dom/cjs/react-dom.development.js:15864:12)\n    at workLoop (node_modules/react-dom/cjs/react-dom.development.js:15903:24)\n    at renderRoot (node_modules/react-dom/cjs/react-dom.development.js:15943:7)\n    at performWorkOnRoot (node_modules/react-dom/cjs/react-dom.development.js:16561:22)\n    at performWork (node_modules/react-dom/cjs/react-dom.development.js:16483:7)\n    at performSyncWork (node_modules/react-dom/cjs/react-dom.development.js:16455:3)\n    at requestWork (node_modules/react-dom/cjs/react-dom.development.js:16355:5)\n    at scheduleWork$1 (node_modules/react-dom/cjs/react-dom.development.js:16219:11)\n    at scheduleRootUpdate (node_modules/react-dom/cjs/react-dom.development.js:16786:3)\n    at updateContainerAtExpirationTime (node_modules/react-dom/cjs/react-dom.development.js:16813:10)\n    at updateContainer (node_modules/react-dom/cjs/react-dom.development.js:16840:10)\n    at ReactRoot.render (node_modules/react-dom/cjs/react-dom.development.js:17123:3)\n    at /home/taylor/dev/flatiron/labs/module_five/redux-thunk-lab/node_modules/react-dom/cjs/react-dom.development.js:17263:14\n    at unbatchedUpdates (node_modules/react-dom/cjs/react-dom.development.js:16680:10)\n    at legacyRenderSubtreeIntoContainer (node_modules/react-dom/cjs/react-dom.development.js:17259:5)\n    at Object.render (node_modules/react-dom/cjs/react-dom.development.js:17318:12)\n    at Object.render (node_modules/enzyme-adapter-react-16/build/ReactSixteenAdapter.js:218:50)\n    at new ReactWrapper (node_modules/enzyme/build/ReactWrapper.js:98:16)\n    at mount (node_modules/enzyme/build/mount.js:19:10)\n    at Context.<anonymous> (test/cat-list-test.js:19:21)\n    at processImmediate (node:internal/timers:464:21)",
+        "message": "Cannot read property 'url' of undefined"
+      }
+    },
+    {
+      "title": "should return the initial state",
+      "fullTitle": "cats reducer should return the initial state",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should handle the ADD_CATS action",
+      "fullTitle": "cats reducer should handle the ADD_CATS action",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    }
+  ],
+  "pending": [],
+  "failures": [
+    {
+      "title": "should display the cat pics wrapped in <img> tags",
+      "fullTitle": "<CatList/> should display the cat pics wrapped in <img> tags",
+      "duration": 2,
+      "currentRetry": 0,
+      "err": {
+        "stack": "TypeError: Cannot read property 'url' of undefined\n    at CatList.render (src/CatList.js:7:41)\n    at ReactShallowRenderer._mountClassComponent (node_modules/react-test-renderer/cjs/react-test-renderer-shallow.development.js:195:37)\n    at ReactShallowRenderer.render (node_modules/react-test-renderer/cjs/react-test-renderer-shallow.development.js:143:14)\n    at /home/taylor/dev/flatiron/labs/module_five/redux-thunk-lab/node_modules/enzyme-adapter-react-16/build/ReactSixteenAdapter.js:287:35\n    at withSetStateAllowed (node_modules/enzyme-adapter-utils/build/Utils.js:103:16)\n    at Object.render (node_modules/enzyme-adapter-react-16/build/ReactSixteenAdapter.js:286:68)\n    at new ShallowWrapper (node_modules/enzyme/build/ShallowWrapper.js:119:22)\n    at shallow (node_modules/enzyme/build/shallow.js:19:10)\n    at Context.<anonymous> (test/cat-list-test.js:14:21)\n    at processImmediate (node:internal/timers:464:21)",
+        "message": "Cannot read property 'url' of undefined"
+      }
+    },
+    {
+      "title": "should have props catPics",
+      "fullTitle": "<CatList/> should have props catPics",
+      "duration": 6,
+      "currentRetry": 0,
+      "err": {
+        "stack": "TypeError: Cannot read property 'url' of undefined\n    at CatList.render (src/CatList.js:7:41)\n    at finishClassComponent (node_modules/react-dom/cjs/react-dom.development.js:13194:31)\n    at updateClassComponent (node_modules/react-dom/cjs/react-dom.development.js:13156:10)\n    at beginWork (node_modules/react-dom/cjs/react-dom.development.js:13825:14)\n    at performUnitOfWork (node_modules/react-dom/cjs/react-dom.development.js:15864:12)\n    at workLoop (node_modules/react-dom/cjs/react-dom.development.js:15903:24)\n    at renderRoot (node_modules/react-dom/cjs/react-dom.development.js:15943:7)\n    at performWorkOnRoot (node_modules/react-dom/cjs/react-dom.development.js:16561:22)\n    at performWork (node_modules/react-dom/cjs/react-dom.development.js:16483:7)\n    at performSyncWork (node_modules/react-dom/cjs/react-dom.development.js:16455:3)\n    at requestWork (node_modules/react-dom/cjs/react-dom.development.js:16355:5)\n    at scheduleWork$1 (node_modules/react-dom/cjs/react-dom.development.js:16219:11)\n    at scheduleRootUpdate (node_modules/react-dom/cjs/react-dom.development.js:16786:3)\n    at updateContainerAtExpirationTime (node_modules/react-dom/cjs/react-dom.development.js:16813:10)\n    at updateContainer (node_modules/react-dom/cjs/react-dom.development.js:16840:10)\n    at ReactRoot.render (node_modules/react-dom/cjs/react-dom.development.js:17123:3)\n    at /home/taylor/dev/flatiron/labs/module_five/redux-thunk-lab/node_modules/react-dom/cjs/react-dom.development.js:17263:14\n    at unbatchedUpdates (node_modules/react-dom/cjs/react-dom.development.js:16680:10)\n    at legacyRenderSubtreeIntoContainer (node_modules/react-dom/cjs/react-dom.development.js:17259:5)\n    at Object.render (node_modules/react-dom/cjs/react-dom.development.js:17318:12)\n    at Object.render (node_modules/enzyme-adapter-react-16/build/ReactSixteenAdapter.js:218:50)\n    at new ReactWrapper (node_modules/enzyme/build/ReactWrapper.js:98:16)\n    at mount (node_modules/enzyme/build/mount.js:19:10)\n    at Context.<anonymous> (test/cat-list-test.js:19:21)\n    at processImmediate (node:internal/timers:464:21)",
+        "message": "Cannot read property 'url' of undefined"
+      }
+    }
+  ],
+  "passes": [
+    {
+      "title": "should use the componentDidMount lifecycle method to fetchCats",
+      "fullTitle": "<App/> should use the componentDidMount lifecycle method to fetchCats",
+      "duration": 22,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "uses redux and thunk to create an action object with type of \"ADD_CATS\" and a payload of cat images",
+      "fullTitle": "async actions uses redux and thunk to create an action object with type of \"ADD_CATS\" and a payload of cat images",
+      "duration": 2010,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should return the initial state",
+      "fullTitle": "cats reducer should return the initial state",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should handle the ADD_CATS action",
+      "fullTitle": "cats reducer should handle the ADD_CATS action",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    }
+  ]
+}
